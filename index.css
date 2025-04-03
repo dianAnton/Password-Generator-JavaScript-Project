@@ -78,6 +78,14 @@ span {
     justify-content: center;
     align-items: center;
     color: #f5f4f3;
+    transition: ease-in 0.1s;
+}
+
+.password-one:hover, .password-two:hover {
+    background-color: #f5f4f3;
+    transition: ease-in 0.1s;
+    color: #344e41;
+    cursor: pointer;
 }
 
 

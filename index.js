@@ -28,5 +28,19 @@ function generatePasswords(){
     console.log(passwordTwo)
 }
 
+function copyPasswordOne(){
+    navigator.clipboard.writeText(passwordOne);
+  
+    
+    alert("Copied the text: " + passwordOne);
+}
+
+function copyPasswordTwo(){
+    navigator.clipboard.writeText(passwordTwo);
+  
+    
+    alert("Copied the text: " + passwordTwo);
+}
+
 
 
